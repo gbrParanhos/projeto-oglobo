@@ -1,0 +1,84 @@
+body {
+  font-family: "Encode Sans", sans-serif;
+}
+
+strong {
+  font-weight: bold;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+h1 {
+  font-size: 52px;
+  font-weight: bold;
+  color: #c4160c;
+  line-height: 65px;
+  padding-bottom: 30px;
+  /* background-color: #303134; */
+}
+
+p {
+  font-size: 18px;
+  color: #303134;
+  padding-bottom: 15px;
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 171px;
+}
+
+.containerMenu {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #f5f6f7;
+  border-bottom: 1px solid #f5f6f7;
+}
+
+.menu {
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1250px;
+}
+
+.containerCorpo {
+  display: flex;
+  justify-content: center;
+}
+
+.corpo {
+  display: flex;
+  justify-content: space-between;
+  width: 1250px;
+  padding-top: 36px;
+  padding-bottom: 36px;
+  margin-left: 15px;
+}
+
+.corpoEsquerdo {
+  border-right: 0.5px solid #ebedef;
+  padding-right: 15px;
+  width: 53%;
+}
+
+.divisao1 {
+}
+
+.corpoDireito {
+  border-left: 0.5px solid#ebedef;
+  width: 48%;
+}
+

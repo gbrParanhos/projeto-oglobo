@@ -19,17 +19,31 @@ h2 {
 }
 
 h3 {
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+h4 {
   font-size: 14px;
   font-weight: 500;
   line-height: 17.5px;
   margin-bottom: 6px;
 }
 
-h4 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 25px;
-  margin-bottom: 10px;
+h5 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.5px;
+  margin-bottom: 6px;
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17.5px;
+  margin-bottom: 6px;
 }
 
 p {
@@ -89,9 +103,9 @@ p {
 }
 
 .corpoEsquerdo {
-  border-right: 0.5px solid #ebedef;
   padding-right: 40px;
   width: 53%;
+  border-right: 0.5px solid#ebedef;
 }
 
 .corpoEsquerdo img {
@@ -100,7 +114,7 @@ p {
   margin-bottom: 11px;
 }
 
-.corpoEsquerdo h3 {
+.corpoEsquerdo h4 {
   color: #C4170C;
 }
 
@@ -117,13 +131,43 @@ p {
   column-gap: 24px;
 }
 
-.noticiaEsquerda {
+.containerNoticias1 .noticia {
 /* width: 193px; */
 min-width: 193px;
 }
 
 .corpoDireito {
-  border-left: 0.5px solid#ebedef;
   width: 48%;
+  display: flex;
+  border-left: 0.5px solid #ebedef;
 }
 
+.corpoDireito img {
+  height: 128px;
+  border-radius: 12px;
+  margin-bottom: 11px;
+}
+
+.corpoDireito h5 {
+  color: #16AE54;
+}
+
+.corpoDireito h6 {
+  color: #EC8006
+}
+
+.containerNoticias2 {
+  padding-left: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.containerNoticias2 .noticia {
+  min-width: 240px;
+}
+
+.bordaDireita {
+  border-right: 1px solid #ebedef;
+  padding-right: 40px;
+}

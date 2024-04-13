@@ -20,7 +20,7 @@ h1 {
 p {
   font-size: 18px;
   color: #303134;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 
 .cabecalho {
@@ -70,12 +70,22 @@ p {
 
 .corpoEsquerdo {
   border-right: 0.5px solid #ebedef;
-  padding-right: 15px;
+  padding-right: 40px;
   width: 53%;
 }
 
 .divisao1 {
-  background-color: black;
+  border-bottom: 0.5px solid #ebedef;
+  padding-bottom: 25px;
+}
+
+.divisao2 {
+  padding-top: 25px;
+}
+
+.divisao2 img {
+  height: 110px;
+  border-radius: 12px;
 }
 
 .corpoDireito {
